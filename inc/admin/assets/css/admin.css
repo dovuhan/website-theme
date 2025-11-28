@@ -1,0 +1,43 @@
+/*======================================================
+=                 Menu custom fields                   =
+======================================================*/
+.nmi-item-custom-fields {
+    display: none;
+    clear: both;
+    overflow: hidden;
+    padding: 0;
+}
+
+.nmi-item-custom-fields h4 {
+    margin: 20px 0 10px;
+}
+
+.nmi-div {
+    clear: both;
+    overflow: hidden;
+    color: #A6A6A6;
+}
+
+.nmi-div a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nmi-div a:hover {
+    text-decoration: underline;
+}
+
+.nmi-div a.link-with-image {
+    display: block;
+    margin: 10px 0;
+}
+
+.nmi-upload-link {
+    margin: 10px 0;
+}
+
+.nmi-current-image img {
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid #EFEFEF;
+}

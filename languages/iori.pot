@@ -1,0 +1,685 @@
+# Copyright (C) 2021 jthemes.net
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Iori 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/iori-dev\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-01-21T07:05:16+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: iori\n"
+
+#. Theme Name of the theme
+msgid "Iori"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://jthemes.net/"
+msgstr ""
+
+#. Description of the theme
+msgid "Iori is a woocommerce theme."
+msgstr ""
+
+#. Author of the theme
+msgid "jthemes.net"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/jthemes"
+msgstr ""
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: 404.php:33
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:37
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:43
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:72
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/admin.php:90
+msgid "You need to set an image as a featured image to be able to use it as an menu item image"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/admin.php:176
+#: inc/modules/iori-nav-menu/inc/walker.php:188
+msgid "Upload menu item image"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/admin.php:184
+#: inc/modules/iori-nav-menu/inc/walker.php:179
+msgid "Change menu item image"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/admin.php:186
+#: inc/modules/iori-nav-menu/inc/walker.php:184
+msgid "Remove menu item image"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/admin.php:233
+msgid "Used on hover?"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/admin.php:237
+msgid "Should this image be used on hover"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/admin.php:247
+msgid "Used when active?"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/admin.php:251
+msgid "Should this image be used when menu item is active"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:89
+msgid "Custom fields [for theme]"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:92
+msgid "Megamenu Style"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:94
+msgid "Default"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:95
+msgid "Full width"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:96
+msgid "Set sizes"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:102
+msgid "Dropdown Width"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:108
+msgid "Dropdown Height"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:114
+msgid "Megamenu Elementor Block for the dropdown"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:116
+msgid "None"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:125
+msgid "Edit this block with Page Builder"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:126
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:56
+msgid "Add new"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:132
+msgid "Icon name"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:139
+msgid "Label text"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:145
+msgid "Label color"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:148
+msgid "Primary Color"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:149
+msgid "Secondary"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:150
+msgid "Red"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:151
+msgid "Green"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:152
+msgid "Blue"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:153
+msgid "Orange"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:154
+msgid "Grey"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:155
+msgid "Black"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:156
+msgid "White"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:162
+msgid "Dropdown text color scheme"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:165
+msgid "Light"
+msgstr ""
+
+#: inc/modules/iori-nav-menu/inc/walker.php:166
+msgid "Dark"
+msgstr ""
+
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:34
+msgid "Select terms"
+msgstr ""
+
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:54
+msgid "Select all"
+msgstr ""
+
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:55
+msgid "Select none"
+msgstr ""
+
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:73
+msgid "Wrong request"
+msgstr ""
+
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:81
+msgid "Taxonomy is not exists"
+msgstr ""
+
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:85
+msgid "This term is exists"
+msgstr ""
+
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:99
+msgid "Added successfully"
+msgstr ""
+
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:122
+msgid "Add new term"
+msgstr ""
+
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:126
+#: inc/woocommerce/callbacks/shop.php:145
+msgid "Name"
+msgstr ""
+
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:132
+msgid "Slug"
+msgstr ""
+
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:144
+msgid "Cancel"
+msgstr ""
+
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:145
+msgid "Add New"
+msgstr ""
+
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:154
+#: inc/modules/variation/variation-swatcher.php:38
+msgid "Color"
+msgstr ""
+
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:161
+#: inc/modules/variation/variation-swatcher.php:39
+msgid "Image"
+msgstr ""
+
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:167
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:181
+#: inc/modules/variation/inc/swatcher-admin.class.php:153
+#: inc/modules/variation/inc/swatcher-admin.class.php:168
+msgid "Upload/Add image"
+msgstr ""
+
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:168
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:182
+#: inc/modules/variation/inc/swatcher-admin.class.php:154
+#: inc/modules/variation/inc/swatcher-admin.class.php:169
+msgid "Remove image"
+msgstr ""
+
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:175
+#: inc/modules/variation/variation-swatcher.php:41
+msgid "Popup"
+msgstr ""
+
+#: inc/modules/variation/inc/swatcher-admin-product.class.php:190
+#: inc/modules/variation/variation-swatcher.php:40
+msgid "Label"
+msgstr ""
+
+#: inc/modules/variation/inc/swatcher-admin.class.php:88
+msgid "Choose an image"
+msgstr ""
+
+#: inc/modules/variation/inc/swatcher-admin.class.php:89
+msgid "Use image"
+msgstr ""
+
+#: inc/templates/callbacks/layout.php:27
+msgid "Blog"
+msgstr ""
+
+#: inc/templates/callbacks/layout.php:34
+msgid "Tag Archives: "
+msgstr ""
+
+#: inc/templates/callbacks/layout.php:43
+msgid "Daily Archives: "
+msgstr ""
+
+#: inc/templates/callbacks/layout.php:45
+msgid "Monthly Archives: "
+msgstr ""
+
+#: inc/templates/callbacks/layout.php:45
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/templates/callbacks/layout.php:47
+msgid "Yearly Archives: "
+msgstr ""
+
+#: inc/templates/callbacks/layout.php:47
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/templates/callbacks/layout.php:49
+msgid "Archives"
+msgstr ""
+
+#: inc/templates/callbacks/layout.php:63
+msgid "Posts by "
+msgstr ""
+
+#: inc/templates/callbacks/layout.php:74
+msgid "Search Results for: "
+msgstr ""
+
+#: inc/templates/callbacks/layout.php:140
+msgid "Don’t show this popup again"
+msgstr ""
+
+#: inc/templates/callbacks/setup.php:148
+msgid "Main Menu"
+msgstr ""
+
+#: inc/templates/callbacks/setup.php:149
+msgid "Left Menu"
+msgstr ""
+
+#: inc/templates/callbacks/setup.php:150
+msgid "Right Menu"
+msgstr ""
+
+#: inc/templates/callbacks/widgets.php:10
+msgid "Sidebar"
+msgstr ""
+
+#: inc/templates/callbacks/widgets.php:12
+msgid "Widget Area for post and page."
+msgstr ""
+
+#: inc/templates/callbacks/widgets.php:22
+msgid "Shop"
+msgstr ""
+
+#: inc/templates/callbacks/widgets.php:24
+msgid "Widget Area for shop pages."
+msgstr ""
+
+#: inc/templates/callbacks/widgets.php:34
+msgid "Footer 1"
+msgstr ""
+
+#: inc/templates/callbacks/widgets.php:36
+#: inc/templates/callbacks/widgets.php:48
+#: inc/templates/callbacks/widgets.php:60
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/templates/callbacks/widgets.php:46
+msgid "Footer 2"
+msgstr ""
+
+#: inc/templates/callbacks/widgets.php:58
+msgid "Footer 3"
+msgstr ""
+
+#: inc/templates/callbacks/widgets.php:70
+msgid "Footer 4"
+msgstr ""
+
+#: inc/templates/callbacks/widgets.php:72
+msgid "For footer style 1 and 2."
+msgstr ""
+
+#: inc/templates/callbacks/widgets.php:82
+msgid "Footer 5"
+msgstr ""
+
+#: inc/templates/callbacks/widgets.php:84
+msgid "Only for footer style 2."
+msgstr ""
+
+#: inc/templates/extras.php:71
+msgid "Please enter any to search"
+msgstr ""
+
+#: inc/templates/extras.php:74
+msgid "Search"
+msgstr ""
+
+#: inc/templates/extras.php:160
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/templates/extras.php:164
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: inc/templates/extras.php:171
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/templates/extras.php:178
+msgid "(Edit)"
+msgstr ""
+
+#: inc/templates/extras.php:274
+msgid "Newer <span class=\"nav-short\">Posts</span>"
+msgstr ""
+
+#: inc/templates/extras.php:278
+msgid "Older <span class=\"nav-short\">Posts</span>"
+msgstr ""
+
+#: inc/templates/extras.php:325
+msgid " minute"
+msgstr ""
+
+#: inc/templates/extras.php:327
+msgid " minutes"
+msgstr ""
+
+#: inc/templates/template-tags.php:18
+msgid "Home"
+msgstr ""
+
+#: inc/templates/template-tags.php:19
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: inc/templates/template-tags.php:20
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: inc/templates/template-tags.php:21
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: inc/templates/template-tags.php:22
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: inc/templates/template-tags.php:23
+msgid "Error 404"
+msgstr ""
+
+#: inc/templates/template-tags.php:196
+msgid "Page"
+msgstr ""
+
+#. translators: %s: post date.
+#: inc/templates/template-tags.php:230
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/templates/template-tags.php:246
+msgctxt "post author"
+msgid " %s"
+msgstr ""
+
+#: inc/templates/template-tags.php:262
+msgid "by"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/templates/template-tags.php:277
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/templates/template-tags.php:305
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#. translators: 1: list of tags.
+#: inc/templates/template-tags.php:308
+#: inc/templates/template-tags.php:325
+msgid "%1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/templates/template-tags.php:322
+msgctxt "list item separator"
+msgid " "
+msgstr ""
+
+#. translators: %s: post title
+#: inc/templates/template-tags.php:334
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/templates/template-tags.php:351
+#: template-parts/content-page.php:59
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: inc/templates/theme-helper.php:52
+msgid "Continue reading %s"
+msgstr ""
+
+#: inc/templates/theme-helper.php:134
+msgid "Showing the single result"
+msgstr ""
+
+#. translators: %d: total results
+#: inc/templates/theme-helper.php:137
+msgid "Showing all %d result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: first result 2: last result 3: total results
+#: inc/templates/theme-helper.php:142
+msgctxt "with first and last result"
+msgid "Showing %1$d&ndash;%2$d of %3$d result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/woocommerce/callbacks/checkout.php:45
+msgid "Payment Method"
+msgstr ""
+
+#. translators: number of items in the mini cart.
+#: inc/woocommerce/callbacks/mini-cart.php:46
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/woocommerce/callbacks/shop-single.php:200
+msgid "DESCRIPTION"
+msgstr ""
+
+#: inc/woocommerce/callbacks/shop.php:123
+msgid "Filters"
+msgstr ""
+
+#: inc/woocommerce/callbacks/shop.php:142
+msgid "Sort by:"
+msgstr ""
+
+#: inc/woocommerce/callbacks/shop.php:143
+msgid "Price"
+msgstr ""
+
+#: inc/woocommerce/callbacks/shop.php:144
+msgid "Date"
+msgstr ""
+
+#: inc/woocommerce/callbacks/shop.php:157
+msgid "PRICE"
+msgstr ""
+
+#: inc/woocommerce/callbacks/shop.php:163
+msgid "SIZE"
+msgstr ""
+
+#: inc/woocommerce/callbacks/shop.php:177
+msgid "COLOUR"
+msgstr ""
+
+#: inc/woocommerce/callbacks/shop.php:191
+msgid "TAGS"
+msgstr ""
+
+#: inc/woocommerce/callbacks/shop.php:440
+msgid "ON SALE PRODUCTS"
+msgstr ""
+
+#: inc/woocommerce/callbacks/shop.php:458
+msgid "FEATURED PRODUCTS"
+msgstr ""
+
+#: inc/woocommerce/callbacks/shop.php:476
+msgid "TOP RATED PRODUCTS"
+msgstr ""
+
+#: inc/woocommerce/callbacks/shop.php:493
+msgid "NEW ARRIVALS PRODUCTS"
+msgstr ""
+
+#: inc/woocommerce/woocommerce-helper.php:56
+msgid "Didnt find anything"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Iori Header 1"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Iori Header 2"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Iori Header 3"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Iori Header 4"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Iori Header 5"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Iori Header 6"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Iori Header 7"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:45
+#: template-parts/content-single.php:68
+#: template-parts/content.php:92
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:55
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content-single.php:94
+msgid "Previous:"
+msgstr ""
+
+#: template-parts/content-single.php:95
+msgid "Next:"
+msgstr ""
+
+#: template-parts/headers/header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: template-parts/quick-view/quickview-content.php:51
+msgid "Placeholder"
+msgstr ""

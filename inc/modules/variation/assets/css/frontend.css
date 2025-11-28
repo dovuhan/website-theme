@@ -1,0 +1,319 @@
+.iori-product-single-variation .variations td.label {
+  display: none;
+}
+
+.product-image-summary .summary-inner>.price,
+.product-image-summary .woodmart-scroll-content>.price {
+  margin-top: 35px;
+}
+
+.custom-sku.custom-sku span.posted_in {
+  display: none;
+}
+
+.product-image-summary .woocommerce-product-details__short-description {
+  margin-top: 30px;
+}
+
+.custom-sku {
+  position: absolute;
+  top: 50px;
+}
+
+.variations_form .woocommerce-variation-price .price {
+  font-size: 22px;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.iori-swatches {
+  overflow: hidden;
+  padding: 0;
+  padding-top: 10px;
+  display: flex;
+}
+
+.iori-swatches .swatch {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 100%;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  position: relative;
+  opacity: 1;
+}
+
+.iori-swatches .swatch.selected {
+  border: 0px solid #bfbfbf;
+  opacity: 1;
+}
+
+.iori-swatches .swatch.swatch-label {
+  border-radius: 5px;
+  border-color: #d6d4d4;
+}
+
+.iori-swatches .swatch.swatch-label.selected {
+  background: #fff;
+  border: 1px solid #000;
+}
+
+.iori-swatches .swatch.disabled {
+  opacity: 0.1;
+}
+
+.iori-swatches .swatch-color {
+  text-indent: -9999px;
+  border: 0px solid #ccc;
+}
+
+.iori-swatches .swatch-color.selected {
+  border-color: #333;
+}
+
+.iori-swatches .swatch-color.selected:before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+  content: "";
+  width: 6px;
+  height: 10px;
+  display: block;
+  border: solid #eee;
+  border-width: 0 2px 2px 0;
+  position: absolute;
+  top: 37%;
+  left: 45%;
+}
+
+.iori-swatches .swatch-label {
+  background-color: #f1f1f1;
+}
+
+.iori-swatches .swatch-popup {
+  overflow: hidden;
+  margin-bottom: 10px;
+  border: 3px solid transparent;
+  align-items: center;
+  display: flex;
+}
+
+span.swatch.swatch-popup img {
+  width: 50px;
+  margin-right: 12px;
+  border: 1px solid #fff;
+}
+
+div#ji_popup_modal {
+  padding-top: 50px;
+}
+
+div#ji_popup_modal .close {
+  margin-right: -13px;
+  margin-top: -16px;
+  padding: 0px;
+  background: black;
+  opacity: 1;
+  font-size: 1.5em;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  border-radius: 100%;
+  z-index: 111;
+  box-shadow: 0 0 4px #111;
+}
+
+span#selected_popup_item img {
+  width: 35px;
+  margin-right: 10px;
+}
+
+span#selected_popup_item {
+  display: block;
+  position: relative;
+  top: 15px;
+}
+
+span.swatch.swatch-image {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border: 1px solid #d6d5d5;
+  border-radius: 0;
+  font-size: 0;
+}
+.size-option {
+  top: 10px;
+  position: relative;
+}
+span.swatch.swatch-image.selected {
+  border: 1px solid #111;
+}
+
+div#ji_popup {
+  position: absolute;
+  left: -100%;
+  font-size: 0;
+  top: 10px;
+  height: 35px;
+  width: 100%;
+  z-index: 0;
+}
+
+.modal-area {
+  height: 55px;
+  position: relative;
+  top: 10px;
+}
+
+.variations_form.variation-swatch-selected .reset_variations {
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: visible;
+  position: relative;
+  top: 10px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1111;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.65);
+  /* Black w/ opacity */
+}
+
+.iori-swatches>span {
+  width: 274px;
+  float: left;
+  margin-right: 7px;
+}
+
+#ji_popup_modal h3,
+#ji_popup_modal small {
+  padding: 0 15px;
+  margin-bottom: 5px;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #f5f5f5;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 67%;
+  padding: 25px;
+  padding-top: 40px;
+  position: relative;
+  border-radius: 5px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1400px) {
+  .modal-content {
+    width: 70%;
+  }
+
+  .iori-swatches>span {
+    width: 258px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .modal-content {
+    width: 85%;
+  }
+
+  .iori-swatches>span {
+    width: 45%;
+    float: left;
+    margin-left: 20px;
+    text-align: left !important;
+  }
+
+  span#selected_popup_item {
+    top: -2px;
+  }
+
+  .variations_form.variation-swatch-selected .reset_variations {
+    top: 65px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .modal-content {
+    width: 90%;
+  }
+
+  .custom-sku {
+    position: absolute;
+    top: 35px;
+  }
+
+  .iori-swatches>span {
+    width: 90%;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: left !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .modal-content {
+    padding: 15px;
+  }
+
+  span#selected_popup_item {
+    top: -3px;
+    font-size: 10px;
+  }
+
+  .variations_form.variation-swatch-selected .reset_variations {
+    top: 55px;
+  }
+}
