@@ -1,0 +1,18 @@
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+	tbody tr:nth-of-type(even) {
+		background-color: rgba(0, 0, 0, .05);
+	}
+
+	td,
+	th {
+		border-top: 1px solid #dee2e6;
+		padding: .75rem;
+		vertical-align: top;
+	}
+
+	p {
+		margin-bottom: 0;
+	}
+}

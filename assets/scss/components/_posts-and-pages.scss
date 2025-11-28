@@ -1,0 +1,25 @@
+.sticky {
+	display: block;
+    padding: 20px;
+    background: #CDE2E7;
+    border-radius: 10px;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+	a {
+		background: #faf9f7;
+		padding: 10px 15px;
+	}
+}

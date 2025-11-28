@@ -1,0 +1,80 @@
+.site-main {
+	grid-area: main;
+}
+.left-sidebar-active,
+.tax-product_tag,
+.tax-product_cat,
+.shop-left-sidebar-active {
+	.site {
+		display: grid;
+		grid-template-columns: ($size__site-sidebar) auto;
+		column-gap: 30px;
+		grid-template-areas:
+		"header header"
+		"sidebar main"
+		"footer footer";
+	}
+	.site-main {
+		grid-area: main;
+	}
+}
+
+.right-sidebar-active .site, 
+.shop-right-sidebar-active .site {
+	display: grid;
+	column-gap: 30px;
+	grid-template-columns: 70% auto;
+	grid-template-areas:
+	"header header"
+	"main sidebar"
+	"footer footer";
+}
+
+.site-header {
+	grid-area: header;
+}
+
+.widget-area {
+	grid-area: sidebar;
+}
+
+.site-footer {
+	grid-area: footer;
+}
+
+@import "no-sidebar";
+
+@media (max-width: 1024px) {
+	.site-main {
+		padding: 0 15px;
+	}
+	.toolbar .shop-display,
+	.toolbar .woocommerce-result-count {
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.left-sidebar-active .site,
+	.shop-left-sidebar-active .site {
+		display: grid;
+		grid-template-columns: 100% auto;
+		column-gap: 0px;
+		grid-template-areas:
+		"header header"
+		"sidebar main"
+		"footer footer";
+	}
+	
+	.right-sidebar-active .site,
+	.shop-right-sidebar-active .site {
+		display: grid;
+		column-gap: 0px;
+		grid-template-columns: 100% auto;
+		grid-template-areas:
+		"header header"
+		"main sidebar"
+		"footer footer";
+	}
+	
+}

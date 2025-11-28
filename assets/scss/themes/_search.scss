@@ -1,0 +1,28 @@
+.box-list-blogs {
+  .no-results {
+    margin-top: 50px;
+    .page-header {
+      .page-title {
+        font-size: 40px;
+      }
+    }
+    .page-content {
+      p {
+        font-size: 16px;
+        margin-bottom: 25px;
+      }
+    }
+  }
+  .page-content {
+    .search-field {
+      padding: 10px 15px;
+      border: 1px solid #024430;
+    }
+    .search-submit {
+      color: #ffe7bb;
+      padding: 10px 15px;
+      border: 1px solid #024430;
+      background-color: #024430;
+    }
+  }
+}

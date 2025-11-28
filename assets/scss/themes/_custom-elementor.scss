@@ -1,0 +1,11 @@
+.accordion-button {
+  box-shadow: none !important;
+}
+.accordion-item {
+  border: none;
+}
+.accordion-item:last-of-type {
+  .accordion-collapse {
+    border-bottom-width: 0px;
+  }
+}
